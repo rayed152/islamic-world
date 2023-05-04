@@ -77,7 +77,7 @@ function Nav() {
       <div className="flex items-center">
         <img src={session.user.image} className="w-6 h-6 rounded-xl" />
         <Dropdown>
-          <Dropdown.Button flat className="px-2">
+          <Dropdown.Button flat className="px-2 text-white">
             {session.user.name}
           </Dropdown.Button>
           <Dropdown.Menu aria-label="Static Actions">
