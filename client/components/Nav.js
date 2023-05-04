@@ -81,7 +81,9 @@ function Nav() {
             {session.user.name}
           </Dropdown.Button>
           <Dropdown.Menu aria-label="Static Actions">
-            <Dropdown.Item key="Profile"> Profile </Dropdown.Item>
+            <Dropdown.Item key="Profile">
+              <Link href="/profile">Profile</Link>
+            </Dropdown.Item>
             <Dropdown.Item key="Settings"> Settings </Dropdown.Item>
             <Dropdown.Item key="signOut">
               <div className="flex gap-1 p-1 pr-4">
